@@ -16,8 +16,9 @@ for(let i = 0; i<studentList.length; i++){
   if(members[i].name === "전"){
     members[i].address = '중구'
   } else {
-    members[i].address = "모름"
+    members[i]["address"] = "모름"
   }
 }
 
 console.table(members)
+console.log(members)
