@@ -13,8 +13,10 @@ function Kdt(id, name){
 
 for(let i = 0; i<studentList.length; i++){
   members.push(new Kdt(i+1, studentList[i]))
-  if(studentList[i] === "전"){
+  if(members[i].name === "전"){
     members[i].address = '중구'
+  } else {
+    members[i].address = "모름"
   }
 }
 
