@@ -30,6 +30,8 @@ for(let i = 0; i<studentList.length; i++){
   if(studentList[i] === "전"){
     members[i].address = "중구"
     console.log(members[i].address)
-  }
+  } /* else {
+    members[i].address = "모름"
+  } */
 }
 console.log(members)
